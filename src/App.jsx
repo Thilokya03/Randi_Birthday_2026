@@ -106,6 +106,15 @@ const wishes = [
   'May your birthday feel as beautiful as you are.',
 ]
 
+const milestoneWishes = [
+  '24 reasons to smile today.',
+  '24 little blessings for your heart.',
+  '24 memories waiting to become beautiful.',
+  '24 candles, each one carrying love.',
+  '24 wishes for your happiness.',
+  '24 reminders that you are deeply loved.',
+]
+
 function App() {
   const [isUnlocked, setIsUnlocked] = useState(() => {
     return window.localStorage.getItem(STORAGE_KEY) === 'true'
@@ -355,7 +364,9 @@ function BirthdayPage({
             Happy Birthday <br />
             Randima Dulmini <span>{PINK_HEART}</span>
           </h1>
-          <p className="subtitle">A little surprise made only for you.</p>
+          <p className="subtitle">
+            A little surprise made only for you on your beautiful 24th birthday.
+          </p>
 
           <div className="hero-buttons">
             <button type="button" onClick={() => setShowLetter(true)}>
@@ -381,8 +392,30 @@ function BirthdayPage({
 
         <div className="birthday-orb">
           <span>{HEART}</span>
-          <h2>19</h2>
-          <p>Your special day</p>
+          <h2>24</h2>
+          <p>Your beautiful 24th birthday</p>
+        </div>
+      </section>
+
+      <section className="twenty-four-section" aria-labelledby="twenty-four-title">
+        <div className="twenty-four-number" aria-hidden="true">
+          24
+        </div>
+        <div className="twenty-four-copy">
+          <p className="eyebrow">A golden milestone</p>
+          <h2 id="twenty-four-title">Twenty-four looks beautiful on you.</h2>
+          <p>
+            This year is another soft chapter of your story, and I hope it gives
+            you more peace, more laughter, more success, and more moments that
+            make your heart feel full.
+          </p>
+        </div>
+        <div className="milestone-wishes">
+          {milestoneWishes.map((wish, index) => (
+            <span key={wish}>
+              {wish}
+            </span>
+          ))}
         </div>
       </section>
 
