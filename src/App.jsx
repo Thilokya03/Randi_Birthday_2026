@@ -411,7 +411,7 @@ function BirthdayPage({
           </p>
         </div>
         <div className="milestone-wishes">
-          {milestoneWishes.map((wish, index) => (
+          {milestoneWishes.map((wish) => (
             <span key={wish}>
               {wish}
             </span>
@@ -447,9 +447,12 @@ function BirthdayPage({
           <h2>Photo & video gallery</h2>
         </div>
 
-        <div className="gallery">
+        <div className="romantic-gallery">
           {galleryMedia.map((item, index) => (
-            <figure className="photo-card" key={item.src}>
+            <figure
+              className={`photo-card ${index === 0 ? 'featured-memory' : ''}`}
+              key={item.src}
+            >
               {item.type === 'video' ? (
                 <video
                   className="gallery-media"
@@ -461,6 +464,7 @@ function BirthdayPage({
               ) : (
                 <img className="gallery-media" src={item.src} alt={item.title} loading="lazy" />
               )}
+              <div className="gallery-shine" aria-hidden="true"></div>
               <figcaption>
                 <span className="media-badge">
                   {item.type === 'video' ? 'Video' : `Photo ${index + 1}`}
