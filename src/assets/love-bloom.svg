@@ -1,0 +1,44 @@
+<svg width="560" height="620" viewBox="0 0 560 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Romantic rose and heart keepsake</title>
+  <desc id="desc">A soft rose, gold moon, and heart illustration for a birthday surprise.</desc>
+  <rect width="560" height="620" rx="44" fill="url(#background)"/>
+  <circle cx="424" cy="138" r="76" fill="url(#moon)" opacity="0.92"/>
+  <path d="M103 428C143 322 209 270 301 272C383 274 440 327 458 432C351 503 233 508 103 428Z" fill="#FFF8F0" opacity="0.82"/>
+  <path d="M278 257C318 205 387 211 408 270C428 327 374 374 279 438C184 374 130 327 151 270C172 211 240 205 278 257Z" fill="url(#heart)" filter="url(#shadow)"/>
+  <path d="M285 395C314 331 356 291 411 274" stroke="#F8D2DD" stroke-width="12" stroke-linecap="round"/>
+  <path d="M274 397C238 333 197 296 152 281" stroke="#F7CAD8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M279 437C276 481 262 521 234 557" stroke="#A95671" stroke-width="11" stroke-linecap="round"/>
+  <path d="M239 524C191 496 151 494 119 518C164 564 204 567 239 524Z" fill="url(#leafLeft)"/>
+  <path d="M287 514C334 483 378 480 419 505C377 558 332 562 287 514Z" fill="url(#leafRight)"/>
+  <path d="M183 151C208 120 248 121 265 156C282 121 322 120 347 151C376 188 345 229 265 282C185 229 154 188 183 151Z" fill="#FFFFFF" opacity="0.48"/>
+  <circle cx="133" cy="188" r="9" fill="#F0B5C8"/>
+  <circle cx="424" cy="366" r="7" fill="#DCA74D"/>
+  <circle cx="104" cy="324" r="5" fill="#EBC170"/>
+  <defs>
+    <linearGradient id="background" x1="54" y1="47" x2="512" y2="575" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8F0"/>
+      <stop offset="0.48" stop-color="#FFE7F0"/>
+      <stop offset="1" stop-color="#FFF1C8"/>
+    </linearGradient>
+    <linearGradient id="moon" x1="360" y1="74" x2="490" y2="204" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFBEA"/>
+      <stop offset="1" stop-color="#E7AF45"/>
+    </linearGradient>
+    <linearGradient id="heart" x1="151" y1="216" x2="417" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5A4BD"/>
+      <stop offset="0.42" stop-color="#D94F87"/>
+      <stop offset="1" stop-color="#8C2E5A"/>
+    </linearGradient>
+    <linearGradient id="leafLeft" x1="119" y1="504" x2="239" y2="553" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D59A3F"/>
+      <stop offset="1" stop-color="#8D5D22"/>
+    </linearGradient>
+    <linearGradient id="leafRight" x1="287" y1="501" x2="419" y2="546" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D59A3F"/>
+      <stop offset="1" stop-color="#8D5D22"/>
+    </linearGradient>
+    <filter id="shadow" x="129" y="204" width="301" height="263" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#8A2D59" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+</svg>
