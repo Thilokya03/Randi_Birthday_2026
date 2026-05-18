@@ -107,12 +107,12 @@ const wishes = [
 ]
 
 const milestoneWishes = [
-  '24 reasons to smile today.',
-  '24 little blessings for your heart.',
-  '24 memories waiting to become beautiful.',
-  '24 candles, each one carrying love.',
-  '24 wishes for your happiness.',
-  '24 reminders that you are deeply loved.',
+  '23 reasons to smile today.',
+  '23 little blessings for your heart.',
+  '23 memories waiting to become beautiful.',
+  '23 candles, each one carrying love.',
+  '23 wishes for your happiness.',
+  '23 reminders that you are deeply loved.',
 ]
 
 function App() {
@@ -365,7 +365,7 @@ function BirthdayPage({
             Randima Dulmini <span>{PINK_HEART}</span>
           </h1>
           <p className="subtitle">
-            A little surprise made only for you on your beautiful 24th birthday.
+            A little surprise made only for you on your beautiful 23rd birthday.
           </p>
 
           <div className="hero-buttons">
@@ -392,14 +392,14 @@ function BirthdayPage({
 
         <div className="birthday-orb">
           <span>{HEART}</span>
-          <h2>24</h2>
-          <p>Your beautiful 24th birthday</p>
+          <h2>23</h2>
+          <p>Your beautiful 23rd birthday</p>
         </div>
       </section>
 
       <section className="twenty-four-section" aria-labelledby="twenty-four-title">
         <div className="twenty-four-number" aria-hidden="true">
-          24
+          23
         </div>
         <div className="twenty-four-copy">
           <p className="eyebrow">A golden milestone</p>
